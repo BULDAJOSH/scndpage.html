@@ -9,7 +9,7 @@
             background: linear-gradient(to right, #f5f5f5, #e6ccff);
         }
 
-        /* NAVBAR */
+        
         .navbar {
             background-color: black;
             color: white;
@@ -31,7 +31,7 @@
             color: violet;
         }
 
-        /* SECTIONS */
+        
         .section {
             display: none;
             padding: 30px;
@@ -41,7 +41,7 @@
             display: block;
         }
 
-        /* HERO */
+        
         .hero {
             background: linear-gradient(to right, black, purple);
             color: white;
@@ -50,7 +50,7 @@
             border-radius: 10px;
         }
 
-        /* PRODUCTS */
+        
         .products {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -140,7 +140,7 @@
 
 <body>
 
-<!-- NAVBAR -->
+
 <div class="navbar">
     <h1>BEYOND THE LIMIT</h1>
     <div class="nav-links">
@@ -152,7 +152,7 @@
     </div>
 </div>
 
-<!-- HOME -->
+
 <div id="home" class="section active">
 
     <div class="hero">
@@ -179,7 +179,7 @@
 
 </div>
 
-<!-- SHIRTS -->
+
 <div id="shirts" class="section">
     <h2>Shirt Collection</h2>
 
@@ -218,7 +218,7 @@
     </div>
 </div>
 
-<!-- SHORTS -->
+
 <div id="shorts" class="section">
     <h2>Shorts Collection</h2>
 
@@ -257,7 +257,7 @@
     </div>
 </div>
 
-<!-- CART -->
+
 <div id="cart" class="section">
     <div class="box">
         <h2>Your Cart</h2>
@@ -265,7 +265,7 @@
     </div>
 </div>
 
-<!-- PROFILE -->
+
 <div id="profile" class="section">
     <div class="box">
         <h2>User Profile</h2>
@@ -275,7 +275,7 @@
     </div>
 </div>
 
-<!-- FOOTER -->
+
 <footer>
     <hr width="50%">
     <p>© 2026 BEYOND THE LIMIT</p>
